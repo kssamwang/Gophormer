@@ -30,7 +30,7 @@ SV_INFO = ServerInfo()
 PROJ_NAME = 'Gophormer'
 # ! Project Path Settings
 
-GPU_SERVER_SETTING = {'default_gpu': '0', 'mnt_dir': f'/mnt/v-jiananzhao/{PROJ_NAME}/', 'py_path': f'{str(Path.home())}/miniconda/envs/py38/bin/python'}
+GPU_SERVER_SETTING = {'default_gpu': '0', 'mnt_dir': f'/back-up/wsy/mnt/{PROJ_NAME}/', 'py_path': f'{str(Path.home())}/miniconda/envs/gf4/bin/python'}
 CPU_SERVER_SETTING = {'default_gpu': '-1', 'mnt_dir': '', 'py_path': f'python'}
 SERVER_SETTINGS = {
     'GCR-TitanVx2': {'ip': '10.185.', **GPU_SERVER_SETTING},
@@ -56,7 +56,7 @@ TEMP_PATH = f'{TEMP_DIR}temp/'
 LOG_PATH = f'{TEMP_DIR}log/'
 
 # Mount path: to be shared
-MNT_DIR = f'/mnt/v-jiananzhao/{PROJ_NAME}/'
+MNT_DIR = f'/back-up/wsy/mnt/{PROJ_NAME}/'
 MNT_TEMP_DIR = f'{MNT_DIR}temp/'
 TEMP_RES_PATH = f'{MNT_DIR}temp_results/'
 RES_PATH = f'{MNT_DIR}results/'
