@@ -1,4 +1,4 @@
-name: py38
+name: gf4
 channels:
   - pytorch
   - pyg
@@ -193,4 +193,4 @@ dependencies:
     - xxhash==3.0.0
     - yarl==1.7.2
     - yaspin==2.1.0
-prefix: /home/v-jiananzhao/miniconda/envs/py38
+prefix: /home/wsy/miniconda/envs/gf4
